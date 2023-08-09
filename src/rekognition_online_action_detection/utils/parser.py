@@ -5,7 +5,7 @@ import os.path as osp
 import argparse
 import json
 
-from rekognition_online_action_detection.config.defaults import get_cfg
+from src.rekognition_online_action_detection.config.defaults import get_cfg
 
 
 def parse_args():

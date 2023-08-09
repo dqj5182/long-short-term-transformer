@@ -3,7 +3,7 @@
 
 __all__ = ['build_model']
 
-from rekognition_online_action_detection.utils.registry import Registry
+from src.rekognition_online_action_detection.utils.registry import Registry
 
 META_ARCHITECTURES = Registry()
 

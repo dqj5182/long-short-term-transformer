@@ -8,7 +8,7 @@ import argparse
 import numpy as np
 import pickle as pkl
 
-from rekognition_online_action_detection.evaluation import compute_result
+from src.rekognition_online_action_detection.evaluation import compute_result
 
 
 def eval_perstage(pred_scores_file):

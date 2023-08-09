@@ -1,16 +1,19 @@
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 # SPDX-License-Identifier: Apache-2.0
 
-from rekognition_online_action_detection.utils.parser import load_cfg
-from rekognition_online_action_detection.utils.env import setup_environment
-from rekognition_online_action_detection.utils.checkpointer import setup_checkpointer
-from rekognition_online_action_detection.utils.logger import setup_logger
-from rekognition_online_action_detection.datasets import build_data_loader
-from rekognition_online_action_detection.models import build_model
-from rekognition_online_action_detection.criterions import build_criterion
-from rekognition_online_action_detection.optimizers import build_optimizer
-from rekognition_online_action_detection.optimizers import build_scheduler
-from rekognition_online_action_detection.engines import do_train
+import sys
+sys.path.insert(0, './')
+
+from src.rekognition_online_action_detection.utils.parser import load_cfg
+from src.rekognition_online_action_detection.utils.env import setup_environment
+from src.rekognition_online_action_detection.utils.checkpointer import setup_checkpointer
+from src.rekognition_online_action_detection.utils.logger import setup_logger
+from src.rekognition_online_action_detection.datasets import build_data_loader
+from src.rekognition_online_action_detection.models import build_model
+from src.rekognition_online_action_detection.criterions import build_criterion
+from src.rekognition_online_action_detection.optimizers import build_optimizer
+from src.rekognition_online_action_detection.optimizers import build_scheduler
+from src.rekognition_online_action_detection.engines import do_train
 
 
 def main(cfg):

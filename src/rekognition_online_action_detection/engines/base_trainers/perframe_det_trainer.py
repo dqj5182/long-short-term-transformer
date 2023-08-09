@@ -7,7 +7,7 @@ from tqdm import tqdm
 import torch
 import torch.nn as nn
 
-from rekognition_online_action_detection.evaluation import compute_result
+from src.rekognition_online_action_detection.evaluation import compute_result
 
 
 def do_perframe_det_train(cfg,

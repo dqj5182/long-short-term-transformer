@@ -1,12 +1,12 @@
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 # SPDX-License-Identifier: Apache-2.0
 
-from rekognition_online_action_detection.utils.parser import load_cfg
-from rekognition_online_action_detection.utils.env import setup_environment
-from rekognition_online_action_detection.utils.checkpointer import setup_checkpointer
-from rekognition_online_action_detection.utils.logger import setup_logger
-from rekognition_online_action_detection.models import build_model
-from rekognition_online_action_detection.engines import do_inference
+from src.rekognition_online_action_detection.utils.parser import load_cfg
+from src.rekognition_online_action_detection.utils.env import setup_environment
+from src.rekognition_online_action_detection.utils.checkpointer import setup_checkpointer
+from src.rekognition_online_action_detection.utils.logger import setup_logger
+from src.rekognition_online_action_detection.models import build_model
+from src.rekognition_online_action_detection.engines import do_inference
 
 
 def main(cfg):

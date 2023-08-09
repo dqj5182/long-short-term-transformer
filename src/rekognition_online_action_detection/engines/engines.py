@@ -1,7 +1,7 @@
 # Copyright Amazon.com, Inc. or its affiliates. All Rights Reserved.
 # SPDX-License-Identifier: Apache-2.0
 
-from rekognition_online_action_detection.utils.registry import Registry
+from src.rekognition_online_action_detection.utils.registry import Registry
 
 TRAINERS = Registry()
 INFERENCES = Registry()

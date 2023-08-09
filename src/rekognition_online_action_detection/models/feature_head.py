@@ -6,7 +6,7 @@ __all__ = ['build_feature_head']
 import torch
 import torch.nn as nn
 
-from rekognition_online_action_detection.utils.registry import Registry
+from src.rekognition_online_action_detection.utils.registry import Registry
 
 FEATURE_HEADS = Registry()
 FEATURE_SIZES = {

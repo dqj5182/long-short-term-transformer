@@ -7,7 +7,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 
-from rekognition_online_action_detection.utils.registry import Registry
+from src.rekognition_online_action_detection.utils.registry import Registry
 
 CRITERIONS = Registry()
 

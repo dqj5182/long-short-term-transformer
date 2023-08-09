@@ -5,7 +5,7 @@ from .postprocessing import postprocessing as default_pp
 from .metrics import perframe_average_precision
 from .metrics import perstage_average_precision
 
-from rekognition_online_action_detection.utils.registry import Registry
+from src.rekognition_online_action_detection.utils.registry import Registry
 
 compute_result = Registry()
 

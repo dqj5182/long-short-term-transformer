@@ -8,7 +8,7 @@ __all__ = [
 
 import torch.utils.data as data
 
-from rekognition_online_action_detection.utils.registry import Registry
+from src.rekognition_online_action_detection.utils.registry import Registry
 
 DATA_LAYERS = Registry()
 

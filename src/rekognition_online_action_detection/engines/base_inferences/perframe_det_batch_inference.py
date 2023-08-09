@@ -9,8 +9,8 @@ import torch
 import numpy as np
 import pickle as pkl
 
-from rekognition_online_action_detection.datasets import build_dataset
-from rekognition_online_action_detection.evaluation import compute_result
+from src.rekognition_online_action_detection.datasets import build_dataset
+from src.rekognition_online_action_detection.evaluation import compute_result
 
 
 def do_perframe_det_batch_inference(cfg, model, device, logger):

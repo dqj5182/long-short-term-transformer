@@ -8,7 +8,7 @@ import time
 import torch
 import numpy as np
 
-from rekognition_online_action_detection.evaluation import compute_result
+from src.rekognition_online_action_detection.evaluation import compute_result
 
 from ..base_inferences.perframe_det_batch_inference import do_perframe_det_batch_inference
 
